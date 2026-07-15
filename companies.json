@@ -1,0 +1,421 @@
+{
+  "last_updated": "2025-01-15",
+  "companies": [
+    {
+      "name": "10Pearls",
+      "category": "pakistan_tech",
+      "tier": 1,
+      "careers_url": "https://www.10pearls.com/careers/",
+      "linkedin_url": "https://www.linkedin.com/company/10pearls/jobs/",
+      "tags": ["software", "ai", "product", "pakistan"]
+    },
+    {
+      "name": "Arbisoft",
+      "category": "pakistan_tech",
+      "tier": 1,
+      "careers_url": "https://arbisoft.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/arbisoft/jobs/",
+      "tags": ["software", "python", "django", "pakistan"]
+    },
+    {
+      "name": "Systems Limited",
+      "category": "pakistan_tech",
+      "tier": 1,
+      "careers_url": "https://systemsltd.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/systems-limited/jobs/",
+      "tags": ["enterprise", "software", "pakistan"]
+    },
+    {
+      "name": "NETSOL Technologies",
+      "category": "pakistan_tech",
+      "tier": 1,
+      "careers_url": "https://www.netsoltech.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/netsol-technologies/jobs/",
+      "tags": ["enterprise", "finance", "software", "pakistan"]
+    },
+    {
+      "name": "Motive",
+      "category": "pakistan_tech",
+      "tier": 1,
+      "careers_url": "https://gomotive.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/motive/jobs/",
+      "tags": ["ai", "iot", "fleet", "software"]
+    },
+    {
+      "name": "Devsinc",
+      "category": "pakistan_tech",
+      "tier": 1,
+      "careers_url": "https://devsinc.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/devsinc/jobs/",
+      "tags": ["software", "web", "mobile", "pakistan"]
+    },
+    {
+      "name": "Contour Software",
+      "category": "pakistan_tech",
+      "tier": 1,
+      "careers_url": "https://contour.software/careers",
+      "linkedin_url": "https://www.linkedin.com/company/contour-software/jobs/",
+      "tags": ["software", "product", "pakistan"]
+    },
+    {
+      "name": "i2c",
+      "category": "pakistan_tech",
+      "tier": 1,
+      "careers_url": "https://www.i2cinc.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/i2cinc/jobs/",
+      "tags": ["fintech", "payments", "software"]
+    },
+    {
+      "name": "Confiz",
+      "category": "pakistan_tech",
+      "tier": 2,
+      "careers_url": "https://confiz.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/confiz/jobs/",
+      "tags": ["software", "cloud", "pakistan"]
+    },
+    {
+      "name": "Tkxel",
+      "category": "pakistan_tech",
+      "tier": 2,
+      "careers_url": "https://www.tkxel.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/tkxel/jobs/",
+      "tags": ["software", "mobile", "web", "pakistan"]
+    },
+    {
+      "name": "VentureDive",
+      "category": "pakistan_tech",
+      "tier": 2,
+      "careers_url": "https://www.venturedive.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/venturedive/jobs/",
+      "tags": ["product", "startup", "software", "pakistan"]
+    },
+    {
+      "name": "Securiti",
+      "category": "pakistan_tech",
+      "tier": 1,
+      "careers_url": "https://securiti.ai/careers",
+      "linkedin_url": "https://www.linkedin.com/company/securiti-ai/jobs/",
+      "tags": ["ai", "privacy", "security", "software"]
+    },
+    {
+      "name": "Emumba",
+      "category": "pakistan_tech",
+      "tier": 2,
+      "careers_url": "https://emumba.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/emumba/jobs/",
+      "tags": ["software", "mobile", "web", "pakistan"]
+    },
+    {
+      "name": "Folio3",
+      "category": "pakistan_tech",
+      "tier": 2,
+      "careers_url": "https://folio3.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/folio3/jobs/",
+      "tags": ["ai", "software", "saas", "pakistan"]
+    },
+    {
+      "name": "7Vals",
+      "category": "pakistan_tech",
+      "tier": 2,
+      "careers_url": "https://7vals.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/7vals/jobs/",
+      "tags": ["software", "web", "pakistan"]
+    },
+    {
+      "name": "Educative",
+      "category": "product_startup",
+      "tier": 1,
+      "careers_url": "https://www.educative.io/careers",
+      "linkedin_url": "https://www.linkedin.com/company/educative/jobs/",
+      "tags": ["edtech", "ai", "product", "pakistan"]
+    },
+    {
+      "name": "NorthBay Solutions",
+      "category": "pakistan_tech",
+      "tier": 2,
+      "careers_url": "https://northbaysolutions.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/northbay-solutions/jobs/",
+      "tags": ["aws", "cloud", "software", "pakistan"]
+    },
+    {
+      "name": "PureLogics",
+      "category": "pakistan_tech",
+      "tier": 2,
+      "careers_url": "https://purelogics.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/purelogics/jobs/",
+      "tags": ["software", "qa", "pakistan"]
+    },
+    {
+      "name": "Techverx",
+      "category": "pakistan_tech",
+      "tier": 2,
+      "careers_url": "https://techverx.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/techverx/jobs/",
+      "tags": ["software", "mobile", "web", "pakistan"]
+    },
+    {
+      "name": "Avanza Solutions",
+      "category": "pakistan_tech",
+      "tier": 2,
+      "careers_url": "https://avanza.com.pk/careers",
+      "linkedin_url": "https://www.linkedin.com/company/avanza-solutions/jobs/",
+      "tags": ["fintech", "software", "pakistan"]
+    },
+    {
+      "name": "Afiniti",
+      "category": "pakistan_tech",
+      "tier": 1,
+      "careers_url": "https://www.afiniti.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/afiniti/jobs/",
+      "tags": ["ai", "machine_learning", "software"]
+    },
+    {
+      "name": "TRG Pakistan",
+      "category": "pakistan_tech",
+      "tier": 2,
+      "careers_url": "https://www.trgworld.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/trg-pakistan/jobs/",
+      "tags": ["bpo", "tech", "pakistan"]
+    },
+    {
+      "name": "DPL",
+      "category": "pakistan_tech",
+      "tier": 2,
+      "careers_url": "https://www.dpl.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/dpl-interactive/jobs/",
+      "tags": ["software", "web", "pakistan"]
+    },
+    {
+      "name": "Conrad Labs",
+      "category": "product_startup",
+      "tier": 1,
+      "careers_url": "https://conradlabs.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/conrad-labs/jobs/",
+      "tags": ["ai", "product", "software", "pakistan"]
+    },
+    {
+      "name": "Tintash",
+      "category": "product_startup",
+      "tier": 1,
+      "careers_url": "https://tintash.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/tintash/jobs/",
+      "tags": ["ai", "product", "mobile", "pakistan"]
+    },
+    {
+      "name": "SadaPay",
+      "category": "product_startup",
+      "tier": 1,
+      "careers_url": "https://www.sadapay.careers/",
+      "linkedin_url": "https://www.linkedin.com/company/sadapay/jobs/",
+      "tags": ["fintech", "product", "startup", "pakistan"]
+    },
+    {
+      "name": "Bazaar",
+      "category": "product_startup",
+      "tier": 1,
+      "careers_url": "https://www.bazaar.pk/careers",
+      "linkedin_url": "https://www.linkedin.com/company/bazaar-technologies/jobs/",
+      "tags": ["ecommerce", "product", "startup", "pakistan"]
+    },
+    {
+      "name": "Careem",
+      "category": "product_startup",
+      "tier": 1,
+      "careers_url": "https://www.careem.com/careers/",
+      "linkedin_url": "https://www.linkedin.com/company/careem/jobs/",
+      "tags": ["mobility", "product", "pakistan"]
+    },
+    {
+      "name": "Bykea",
+      "category": "product_startup",
+      "tier": 2,
+      "careers_url": "https://bykea.com/careers",
+      "linkedin_url": "https://www.linkedin.com/company/bykea/jobs/",
+      "tags": ["mobility", "fintech", "product", "pakistan"]
+    },
+    {
+      "name": "PriceOye",
+      "category": "product_startup",
+      "tier": 2,
+      "careers_url": "https://priceoye.pk/careers",
+      "linkedin_url": "https://www.linkedin.com/company/priceoye/jobs/",
+      "tags": ["ecommerce", "product", "pakistan"]
+    },
+    {
+      "name": "Google",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://careers.google.com/jobs/?locations=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/google/jobs/",
+      "tags": ["faang", "ai", "cloud"]
+    },
+    {
+      "name": "Microsoft",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://careers.microsoft.com/v2/global/en/search?q=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/microsoft/jobs/",
+      "tags": ["faang", "ai", "cloud"]
+    },
+    {
+      "name": "Amazon",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://www.amazon.jobs/en/search?location=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/amazon/jobs/",
+      "tags": ["faang", "cloud", "ai"]
+    },
+    {
+      "name": "IBM",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://careers.ibm.com/en/search?q=Pakistan&location=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/ibm/jobs/",
+      "tags": ["enterprise", "ai", "cloud"]
+    },
+    {
+      "name": "Netflix",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://jobs.netflix.com/search?q=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/netflix/jobs/",
+      "tags": ["faang", "streaming"]
+    },
+    {
+      "name": "Airbnb",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://careers.airbnb.com/search/?q=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/airbnb/jobs/",
+      "tags": ["product", "travel"]
+    },
+    {
+      "name": "Nestlé",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://www.nestle.com/jobs/search?location=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/nestle/jobs/",
+      "tags": ["fmcg"]
+    },
+    {
+      "name": "Unilever",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://www.unilever.com/careers/search-jobs/?query=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/unilever/jobs/",
+      "tags": ["fmcg"]
+    },
+    {
+      "name": "PepsiCo",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://www.pepsicojobs.com/main/jobs/?query=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/pepsico/jobs/",
+      "tags": ["fmcg"]
+    },
+    {
+      "name": "Coca-Cola",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://careers.coca-colacompany.com/search/?q=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/the-coca-cola-company/jobs/",
+      "tags": ["fmcg"]
+    },
+    {
+      "name": "Procter & Gamble",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://www.pgcareers.com/search/?q=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/procter-gamble/jobs/",
+      "tags": ["fmcg"]
+    },
+    {
+      "name": "Schneider Electric",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://www.se.com/ww/en/work/job-search/?location=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/schneider-electric/jobs/",
+      "tags": ["energy", "iot"]
+    },
+    {
+      "name": "Siemens",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://jobs.siemens.com/search/?q=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/siemens/jobs/",
+      "tags": ["engineering", "digital"]
+    },
+    {
+      "name": "Deloitte",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://jobs.deloitte.com/search/?q=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/deloitte/jobs/",
+      "tags": ["consulting", "tech"]
+    },
+    {
+      "name": "EY",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://careers.ey.com/ey/search/?q=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/ernst-young/jobs/",
+      "tags": ["consulting", "tech"]
+    },
+    {
+      "name": "PwC",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://www.pwc.com/gx/en/careers.html?q=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/pwc/jobs/",
+      "tags": ["consulting", "tech"]
+    },
+    {
+      "name": "KPMG",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://kpmg.com/xx/en/careers.html?q=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/kpmg/jobs/",
+      "tags": ["consulting", "tech"]
+    },
+    {
+      "name": "S&P Global",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://www.spglobal.com/en/careers.html?q=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/spglobal/jobs/",
+      "tags": ["fintech", "data"]
+    },
+    {
+      "name": "Teradata",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://careers.teradata.com/search/?q=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/teradata/jobs/",
+      "tags": ["data", "analytics"]
+    },
+    {
+      "name": "Oracle",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://careers.oracle.com/webapps/portal/careers/SearchJobs/?location=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/oracle/jobs/",
+      "tags": ["enterprise", "cloud"]
+    },
+    {
+      "name": "SAP",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://jobs.sap.com/search/?q=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/sap/jobs/",
+      "tags": ["enterprise", "cloud"]
+    },
+    {
+      "name": "Cisco",
+      "category": "multinational",
+      "tier": 3,
+      "careers_url": "https://jobs.cisco.com/search/?q=Pakistan",
+      "linkedin_url": "https://www.linkedin.com/company/cisco/jobs/",
+      "tags": ["networking", "security"]
+    }
+  ]
+}
