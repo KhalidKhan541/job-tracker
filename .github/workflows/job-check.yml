@@ -1,6 +1,8 @@
 name: Job Tracker
 
 on:
+  push:
+    branches: [master]
   schedule:
     # Run daily at 9 AM UTC (2 PM PKT)
     - cron: '0 9 * * *'
