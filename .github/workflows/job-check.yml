@@ -8,9 +8,16 @@ on:
     - cron: '0 1 * * *'
   workflow_dispatch:
 
+# Prevent overlapping runs - cancel any in-progress run when a new one starts
+concurrency:
+  group: job-tracker-run
+  cancel-in-progress: true
+
 jobs:
   check-jobs:
     runs-on: ubuntu-latest
+    # Kill if running longer than 25 minutes (EXA rate limits could slow things)
+    timeout-minutes: 25
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -22,15 +29,39 @@ jobs:
           path: .
           if_no_artifact_found: warn
 
+      - name: Validate config
+        run: |
+          echo "Checking required secrets..."
+          ERRORS=0
+          for SECRET in EXA_API_KEY SENDER_EMAIL SENDER_PASSWORD; do
+            if [ -z "${{ secrets[SECRET] }}" ]; then
+              echo "::error::Missing secret: $SECRET"
+              ERRORS=$((ERRORS + 1))
+            fi
+          done
+          if [ $ERRORS -gt 0 ]; then
+            echo "::error::$ERRORS required secrets are missing. Set them in Settings → Secrets → Actions."
+            exit 1
+          fi
+          echo "All secrets present"
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
+
       - name: Install dependencies
         run: pip install -r requirements.txt
 
       - name: Run job tracker
+        id: tracker
         env:
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
           SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
@@ -39,12 +70,23 @@ jobs:
         run: python job_tracker.py
 
       - name: Show summary
+        if: always()
         run: cat summary.txt
 
       - name: Upload new state
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: job-state
           path: seen_jobs.json
           retention-days: 365
           overwrite: true
+
+      - name: Notify on failure
+        if: failure()
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          message: "❌ Job Tracker failed on ${{ github.ref_name }}. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+        continue-on-error: true
